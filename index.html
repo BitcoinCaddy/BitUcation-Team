@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- BitUcation Orga v1 | Stand: 12.08.2026 -->
+<html lang="de" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, minimum-scale=1, user-scalable=no, interactive-widget=resizes-content">
+  <meta name="theme-color" content="#f2f2f2">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="BitUcation">
+  <meta name="robots" content="noindex, nofollow">
+  <title>BitUcation Orga</title>
+  <link rel="icon" href="assets/icons/icon-192.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css?v=1">
+</head>
+<body>
+  <div id="app">
+    <!-- Anmeldung: Nutzer-Trommel -->
+    <div id="view-login"></div>
+
+    <!-- App -->
+    <div id="view-app" class="hidden">
+      <header class="appbar" id="appbar"></header>
+      <div id="view" class="scroll"></div>
+      <nav class="tabbar" id="tabbar"></nav>
+    </div>
+  </div>
+
+  <div id="sheet-host"></div>
+  <div class="toast" id="toast"></div>
+
+  <script src="js/store.js?v=1"></script>
+  <script src="js/sync.js?v=1"></script>
+  <script src="js/ui.js?v=1"></script>
+  <script src="js/views.js?v=1"></script>
+  <script src="js/app.js?v=1"></script>
+</body>
+</html>
